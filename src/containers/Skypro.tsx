@@ -11,7 +11,7 @@ import Layout from "./Layout/Layout";
 
 const Skypro: React.FC = () => {
     return(
-        <Router>
+        <Router basename={process.env.REACT_APP_URI}>
             <Routes>
                 <Route path="/" element={<Layout />} >
                     <Route index element={<Shop />} />

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skypro/static/css/main.e6c13ad2.css",
-    "main.js": "/skypro/static/js/main.0c988ff5.js",
+    "main.js": "/skypro/static/js/main.9831f6bf.js",
     "static/js/787.92bd1490.chunk.js": "/skypro/static/js/787.92bd1490.chunk.js",
     "static/media/5.png": "/skypro/static/media/5.15bf8ccf8bce85d4d3aa.png",
     "static/media/3.png": "/skypro/static/media/3.3daaa7e44e3469a3ceed.png",
@@ -11,11 +11,11 @@
     "static/media/1.png": "/skypro/static/media/1.6d1377d90d227afa3f7e.png",
     "index.html": "/skypro/index.html",
     "main.e6c13ad2.css.map": "/skypro/static/css/main.e6c13ad2.css.map",
-    "main.0c988ff5.js.map": "/skypro/static/js/main.0c988ff5.js.map",
+    "main.9831f6bf.js.map": "/skypro/static/js/main.9831f6bf.js.map",
     "787.92bd1490.chunk.js.map": "/skypro/static/js/787.92bd1490.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0c988ff5.js"
+    "static/js/main.9831f6bf.js"
   ]
 }
