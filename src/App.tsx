@@ -1,25 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from "react-redux";
+import CssBaseline from "@mui/material/CssBaseline";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+import "./App.css"
+import Skypro from "./containers/Skypro";
+import { store } from "./store";
+
+const themeLight = createTheme({
+    palette: {
+        primary: {
+            main: '#000000',
+        },
+        background: {
+            default: "#ffffff"
+        }
+    },
+    typography: {
+        button: {
+            textTransform: 'none'
+        }
+    }
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <ThemeProvider theme={themeLight}>
+          <CssBaseline />
+          <Provider store={store}>
+            <Skypro />
+          </Provider>
+      </ThemeProvider>
   );
 }
 
